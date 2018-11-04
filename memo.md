@@ -75,3 +75,16 @@ If you're making a contribution to [Dash-User-Contributions](https://github.com/
 ```shell
 wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz && ./docsetcontrib --verify
 ```
+
+## Specific Memos
+### aiohttp
+- [Detailed generation steps written by me](https://github.com/Kapeli/Dash-User-Contributions/blob/3ac3210d4fc1ce68ce39e54138617e538603dd5d/docsets/aiohttp/README.md)
+- Combine aiohttp doc and [aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) doc together with relative path in `href`
+
+### lxml
+- When scraping the official site, leave folders of old version(`x.y`) and folder `files`.
+- Be sure to enable javascript when building it with `doc2dash`
+
+### pysheeet, cheatsheet of Python
+- Increase max depth for toc in `docs/index.rst`: `:maxdepth: 2`.
+- Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.

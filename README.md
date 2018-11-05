@@ -9,7 +9,8 @@ Dash docsets with custom styles
 
 ### Docset Feeds
 - aiohttp
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
-    - dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
-
-**Note**: Dash feed links could not be rendered clickable because of [sanitization](https://github.com/jch/html-pipeline/blob/5feb0c185fb1e5037e3ad6d6bd533fb4af3685d8/lib/html/pipeline/sanitization_filter.rb#L40) of html-pipline.
+    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml)
+- pysheeet
+    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml)
+- Setuptools
+    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml)

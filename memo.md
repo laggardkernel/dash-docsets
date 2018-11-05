@@ -6,7 +6,7 @@ The steps here are for sphinx docs and HTML files.
 ### Generation
 Edit `docs/conf.py`
 - suppress generate of sidebar and decorations for sphinx doc
-- enable custom CSS at the end of `conf.py`
+- enable custom styles at the end of `conf.py`, if it's available
 
 ```python
 # options for html_theme = "alabaster"
@@ -25,13 +25,6 @@ html_theme_options = {
     'code_font_family': "Monaco, Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
     'code_font_size': '0.85em',
 }
-```
-
-```python
-# at the end of confi.py
-if "custom.css" in html_css_files:
-    html_css_files.remove("custom.css")
-html_css_files.append("custom.css")
 ```
 
 Tweak width of content, sidebar, margin, etc, with custom css.
@@ -56,6 +49,13 @@ body {font-family: Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-
 div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
 pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.85em;}
 h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;}
+```
+
+Build HTML doc, with `make html`, or
+
+```shell
+# sphinx-build -b html {source_folder?} {output_folder}
+sphinx-build -b html . ./_build
 ```
 
 Build the docset with [doc2dash](https://github.com/hynek/doc2dash) for sphinx doc, and [dashing](https://github.com/technosophos/dashing) for general HTML files.
@@ -87,25 +87,27 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 
 ## Specific Formulae
 ### aiohttp
-- [Detailed generation steps written by me](https://github.com/Kapeli/Dash-User-Contributions/blob/3ac3210d4fc1ce68ce39e54138617e538603dd5d/docsets/aiohttp/README.md)
+- https://aiohttp.readthedocs.io/en/stable/
+- [Detailed generation steps](https://github.com/Kapeli/Dash-User-Contributions/blob/3ac3210d4fc1ce68ce39e54138617e538603dd5d/docsets/aiohttp/README.md)
+- aiohttp theme is based on alabaster, so all options are available.
 - Combine aiohttp doc and [aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) doc together with relative path in `href`
 
 ### lxml
+- https://lxml.de/
 - When scraping the official site, leave folders of old version(`x.y`) and folder `files`.
 - Be sure to enable javascript when building it with `doc2dash`
 
 ### pysheeet, cheatsheet of Python
+- https://www.pythonsheets.com/
 - Increase max depth for toc in `docs/index.rst`: `:maxdepth: 2`.
 - Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.
 
 ### Setuptools
+- https://setuptools.readthedocs.io/en/stable/
 - `:maxdepth: 3` for toctree of index page
-- Only `"nosidebar": True` works in `html_theme_options = {}`
+- `html_theme = "alabaster"`, or comment the original theme since [alabaster](https://github.com/bitprophet/alabaster/) is the default theme.
+- Remove underline in headings:
 
 ```css
-/* additional for nature.css */
-div.body p, div.body dd, div.body li {line-height: 1.4em;}
-div.body {font-size:1.0em;color:#000;}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-family: Garamond,Georgia,'Bitstream Charter'
-,serif !important;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 ```

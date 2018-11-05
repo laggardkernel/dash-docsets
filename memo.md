@@ -18,7 +18,7 @@ html_theme_options = {
     'github_button': False,
     'github_banner': False,
 
-    # the display style I need
+    # Only works for alabaster?
     'font_family': "Georgia, 'Bitstream Charter', Hiragino Mincho Pro, serif",
     'font_size': '1.0625rem',
     'head_font_family': "Garamond, Georgia, 'Bitstream Charter', serif",
@@ -49,6 +49,15 @@ div.admonition {margin:20px 0; padding:10px 10px;}
 
 First part of the styles above is borrowed from Dash docset named Flask, which I think is added by Kapeli, the creator of Dash.
 
+Use styles below to modify font family if `html_theme_options` doesn't support font settings.
+
+```css
+body {font-family: Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;}
+div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
+pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.85em;}
+h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;}
+```
+
 Build the docset with [doc2dash](https://github.com/hynek/doc2dash) for sphinx doc, and [dashing](https://github.com/technosophos/dashing) for general HTML files.
 
 ```shell
@@ -76,7 +85,7 @@ If you're making a contribution to [Dash-User-Contributions](https://github.com/
 wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz && ./docsetcontrib --verify
 ```
 
-## Specific Memos
+## Specific Formulae
 ### aiohttp
 - [Detailed generation steps written by me](https://github.com/Kapeli/Dash-User-Contributions/blob/3ac3210d4fc1ce68ce39e54138617e538603dd5d/docsets/aiohttp/README.md)
 - Combine aiohttp doc and [aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) doc together with relative path in `href`
@@ -88,3 +97,15 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 ### pysheeet, cheatsheet of Python
 - Increase max depth for toc in `docs/index.rst`: `:maxdepth: 2`.
 - Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.
+
+### Setuptools
+- `:maxdepth: 3` for toctree of index page
+- Only `"nosidebar": True` works in `html_theme_options = {}`
+
+```css
+/* additional for nature.css */
+div.body p, div.body dd, div.body li {line-height: 1.4em;}
+div.body {font-size:1.0em;color:#000;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-family: Garamond,Georgia,'Bitstream Charter'
+,serif !important;}
+```

@@ -111,3 +111,5 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 ```css
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 ```
+
+- Dashing selector: `"a.toc-backref": "Guide"`

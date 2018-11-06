@@ -113,3 +113,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 ```
 
 - Dashing selector: `"a.toc-backref": "Guide"`
+
+### Requests
+- remove badges

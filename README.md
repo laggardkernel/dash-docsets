@@ -14,3 +14,5 @@ Dash docsets with custom styles
     - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml)
 - Setuptools
     - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml)
+- Requests
+    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml)

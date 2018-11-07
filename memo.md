@@ -117,3 +117,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 ### Requests
 - remove badges: `find("body div h1").siblings().filter("a")`
 - remove decorative images: `body div h1 + img`
+
+### Selenium Python
+- confi file path: `selenium-python/source/conf.py`

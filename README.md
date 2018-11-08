@@ -18,3 +18,5 @@ Dash docsets with custom styles
     - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml)
 - Selenium Python
     - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/selenium-python.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/selenium-python.xml)
+- Werkzeug
+    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/werkzeug.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/werkzeug.xml)

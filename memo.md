@@ -115,8 +115,14 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 - Dashing selector: `"a.toc-backref": "Guide"`
 
 ### Requests
+- http://docs.python-requests.org/en/master/
 - remove badges: `find("body div h1").siblings().filter("a")`
 - remove decorative images: `body div h1 + img`
 
 ### Selenium Python
+- https://selenium-python.readthedocs.io/
 - confi file path: `selenium-python/source/conf.py`
+
+### Werkzeug
+- http://werkzeug.pocoo.org/docs/0.14/
+- The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.

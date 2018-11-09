@@ -9,14 +9,16 @@ Dash docsets with custom styles
 
 ### Docset Feeds
 - aiohttp
-    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml)
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
+- Bottle
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/bottle.xml
 - pysheeet
-    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml)
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
 - Setuptools
-    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml)
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml
 - Requests
-    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml)
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml
 - Selenium Python
-    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/selenium-python.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/selenium-python.xml)
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/selenium-python.xml
 - Werkzeug
-    - [https://github.com/laggardkernel/dash-docsets/raw/master/feeds/werkzeug.xml](dash-feed://https%3A//github.com/laggardkernel/dash-docsets/raw/master/feeds/werkzeug.xml)
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/werkzeug.xml

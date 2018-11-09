@@ -33,8 +33,8 @@ Tweak width of content, sidebar, margin, etc, with custom css.
 /* copy and paste the content below into
  * docs/_build/html/_static/custom.css
  */
-div.footer {width:auto; max-width:940px} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
-div.body {max-width:none !important;}
+div.footer {width:auto; max-width:none;} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
+div.body {padding-left:30px;padding-right:30px;max-width:none !important;}
 
 pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
 div.admonition {margin:20px 0; padding:10px 10px;}
@@ -45,10 +45,10 @@ First part of the styles above is borrowed from Dash docset named Flask, which I
 Use styles below to modify font family if `html_theme_options` doesn't support font settings.
 
 ```css
-body {font-family:'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;}
-div.admonition p.admonition-title {font-family:'Garamond','Georgia','Bitstream Charter',serif;}
-pre, tt, code {font-family:Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.85em;}
-h1, h2, h3, h4, h5, h6 {font-family:Garamond,Georgia,'Bitstream Charter',serif !important;}
+body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;}
+div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
+pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em!important;}
+h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
 ```
 
 Build HTML doc, with `make html`, or
@@ -92,6 +92,15 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - aiohttp theme is based on alabaster, so all options are available.
 - Combine aiohttp doc and [aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) doc together with relative path in `href`
 
+### Bottle
+- https://bottlepy.org/docs/0.12/
+- ~~`make docs` in root folder of the source~~
+- Use theme folder named `sphinx` from [bottlepy.org](https://github.com/bottlepy/bottlepy.org) repo
+    - `html_theme = "alabaster"`
+- `sphinx-build -b html -c docs/sphinx -d build/docs/doctrees docs build/docs/html`
+- Use custom font styles since `bottle.css` replaces `alabaster.css`
+
+
 ### lxml
 - https://lxml.de/
 - When scraping the official site, leave folders of old version(`x.y`) and folder `files`.
@@ -101,6 +110,15 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - https://www.pythonsheets.com/
 - Increase max depth for toc in `docs/index.rst`: `:maxdepth: 2`.
 - Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.
+
+### Requests
+- http://docs.python-requests.org/en/master/
+- remove badges: `find("body div h1").siblings().filter("a")`
+- remove decorative images: `body div h1 + img`
+
+### Selenium Python
+- https://selenium-python.readthedocs.io/
+- confi file path: `selenium-python/source/conf.py`
 
 ### Setuptools
 - https://setuptools.readthedocs.io/en/stable/
@@ -113,15 +131,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 ```
 
 - Dashing selector: `"a.toc-backref": "Guide"`
-
-### Requests
-- http://docs.python-requests.org/en/master/
-- remove badges: `find("body div h1").siblings().filter("a")`
-- remove decorative images: `body div h1 + img`
-
-### Selenium Python
-- https://selenium-python.readthedocs.io/
-- confi file path: `selenium-python/source/conf.py`
 
 ### Werkzeug
 - http://werkzeug.pocoo.org/docs/0.14/

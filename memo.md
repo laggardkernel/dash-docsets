@@ -99,7 +99,7 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
     - `html_theme = "alabaster"`
 - `sphinx-build -b html -c docs/sphinx -d build/docs/doctrees docs build/docs/html`
 - Use custom font styles since `bottle.css` replaces `alabaster.css`
-
+    - `div.body {padding-left:30px;padding-right:30px;max-width:none !important;}`
 
 ### lxml
 - https://lxml.de/
@@ -115,6 +115,10 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - http://docs.python-requests.org/en/master/
 - remove badges: `find("body div h1").siblings().filter("a")`
 - remove decorative images: `body div h1 + img`
+
+### Requests-HTML
+- https://html.python-requests.org/
+- remove badges
 
 ### Selenium Python
 - https://selenium-python.readthedocs.io/

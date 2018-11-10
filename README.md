@@ -18,6 +18,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml
 - Requests
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml
+- Requests-HTML
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests-html.xml
 - Selenium Python
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/selenium-python.xml
 - Werkzeug

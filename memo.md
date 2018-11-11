@@ -136,6 +136,20 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 
 - Dashing selector: `"a.toc-backref": "Guide"`
 
+### Sphinx
+- The theme is an adjusted version of the sphinxdoc theme. Only two options are available:
+    - `nosidebar`
+    - `sidebarwidth`
+- Hence, additional styles for font-family are needed.
+- Resize body width and reduce the size of `div.pageheader`:
+
+```css
+body {min-width: 0;max-width: none;border-left:none;border-right:0;}
+div.pageheader {padding: 0;}
+div.pageheader img {height:50px;}
+div.pageheader ul {margin-top:15px;}
+```
+
 ### Werkzeug
 - http://werkzeug.pocoo.org/docs/0.14/
 - The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.

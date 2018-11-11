@@ -11,16 +11,18 @@ Dash docsets with custom styles
 - aiohttp
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
 - Bottle
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/bottle.xml
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
 - pysheeet
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
-- Setuptools
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/setuptools.xml
 - Requests
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests.xml
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests.xml
 - Requests-HTML
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/requests-html.xml
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-HTML.xml
 - Selenium Python
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/selenium-python.xml
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Selenium-Python.xml
+- Setuptools
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Setuptools.xml
+- Sphinx
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sphinx.xml
 - Werkzeug
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/werkzeug.xml
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Werkzeug.xml

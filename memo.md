@@ -49,6 +49,8 @@ body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mi
 div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
 pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em!important;}
 h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
+/* optional */
+/* body, div.body {...; color:#3E4349} */
 ```
 
 Build HTML doc, with `make html`, or
@@ -62,7 +64,8 @@ Build the docset with [doc2dash](https://github.com/hynek/doc2dash) for sphinx d
 
 ```shell
 # sphinx doc with index
-doc2dash -jv -n aiohttp -I index.html -u https://aiohttp.readthedocs.io/en/stable/ <path to HTML doc folder of aiohttp>
+# enable javascript only if it's needed
+doc2dash -v -n aiohttp -I index.html -u https://aiohttp.readthedocs.io/en/stable/ <path to HTML doc folder of aiohttp>
 
 # OR
 # html files without index
@@ -119,6 +122,21 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - https://www.pythonsheets.com/
 - Increase max depth for toc in `docs/index.rst`: `:maxdepth: 2`.
 - Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.
+
+### Pytest
+- https://docs.pytest.org/en/3.10.0/
+- Based on flask theme, no useful options for docset generation
+- Fix indent of unordered list in media query:
+
+```css
+@media screen and (max-width: 870px) {
+    ul {
+        margin-left: 1em;
+    }
+}
+```
+
+- Maybe it's a good idea to use theme `alabaster` since those two are very similar
 
 ### Requests
 - http://docs.python-requests.org/en/master/

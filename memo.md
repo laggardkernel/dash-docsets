@@ -106,7 +106,16 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - When scraping the official site, leave folders of old version(`x.y`) and folder `files`.
 - Be sure to enable javascript when building it with `doc2dash`
 
-### pysheeet, cheatsheet of Python
+### PyQuery
+- https://pyquery.readthedocs.io/en/latest/
+- `native` theme. Only two options are available:
+    - `nosidebar`
+    - `sidebarwidth`
+- `html_css_files = ["custom.css"]`
+- Remove badges `a.image-reference` in `index.html`
+- Disable javascript since there's a ajax request for mathjax
+
+### pysheeet, Cheatsheet of Python
 - https://www.pythonsheets.com/
 - Increase max depth for toc in `docs/index.rst`: `:maxdepth: 2`.
 - Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.

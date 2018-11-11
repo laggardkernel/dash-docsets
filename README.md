@@ -12,6 +12,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
 - Bottle
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
+- PyQuery
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyQuery.xml
 - pysheeet
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
 - Requests

@@ -118,6 +118,11 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - Remove badges `a.image-reference` in `index.html`
 - Disable javascript since there's a ajax request for mathjax
 
+### PyMongo
+- https://api.mongodb.com/python/3.7.2/
+- https://github.com/mongodb/mongo-python-driver/
+- Remove left padding for `div.body`
+
 ### pysheeet, Cheatsheet of Python
 - https://www.pythonsheets.com/
 - Increase max depth for toc in `docs/index.rst`: `:maxdepth: 2`.

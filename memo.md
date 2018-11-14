@@ -104,6 +104,10 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - Use custom font styles since `bottle.css` replaces `alabaster.css`
     - `div.body {padding-left:30px;padding-right:30px;max-width:none !important;}`
 
+### Celery
+- http://docs.celeryproject.org/en/v4.2.1/
+- Try to preserve the style, only code font is overridden
+
 ### lxml
 - https://lxml.de/
 - When scraping the official site, leave folders of old version(`x.y`) and folder `files`.

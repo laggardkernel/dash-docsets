@@ -95,6 +95,44 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - aiohttp theme is based on alabaster, so all options are available.
 - Combine aiohttp doc and [aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) doc together with relative path in `href`
 
+### BeautifulSoup
+- https://www.crummy.com/software/BeautifulSoup/bs4/download/
+- https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- `nosidebar`, the only option
+- Generate a toc behind "Getting help" since the toc in sidebar is removed:
+
+```restructured
+Documentation content
+---------------------
+
+.. toctree::
+   :maxdepth: 3
+
+   index
+```
+
+- Override font family, font color
+- Generate index with dashing
+
+```json
+    "selectors": {
+        "div.section h1":{
+            "type": "Guide",
+            "regexp": "¶",
+            "replacement": ""
+        },
+        "div.section h2":{
+            "type": "Guide",
+            "regexp": "¶",
+            "replacement": ""
+        },
+        "div.section h3":{"type": "Guide",
+            "regexp": "¶",
+            "replacement": ""
+        }
+    },
+```
+
 ### Bottle
 - https://bottlepy.org/docs/0.12/
 - ~~`make docs` in root folder of the source~~

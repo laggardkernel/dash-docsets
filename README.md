@@ -10,6 +10,8 @@ Dash docsets with custom styles
 ### Docset Feeds
 - aiohttp
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
+- Beautiful Soup
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Beautiful-Soup.xml
 - Bottle
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
 - Celery

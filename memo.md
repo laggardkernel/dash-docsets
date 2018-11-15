@@ -185,6 +185,9 @@ div.document {padding:0 20px;color:#333;}
 - Generate docset from these HTML files using [dashing](https://github.com/technosophos/dashing). Tweak the conf to get a better searchIndex.
     - Remove 404 items in searchIndex if it's needed.
 
+### marshmallow
+- Both 2.x and 3.x are needed
+
 ### PyQuery
 - https://pyquery.readthedocs.io/en/latest/
 - `native` theme. Only two options are available:

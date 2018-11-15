@@ -18,6 +18,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Celery.xml
 - lxml
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
+- marshmallow
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/marshmallow.xml
 - PyQuery
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyQuery.xml
 - pysheeet

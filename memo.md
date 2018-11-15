@@ -148,8 +148,42 @@ Documentation content
 
 ### lxml
 - https://lxml.de/
-- When scraping the official site, leave folders of old version(`x.y`) and folder `files`.
-- Be sure to enable javascript when building it with `doc2dash`
+- Get the HTML files by building from the source, or scraping from the webside
+    - When scraping the official site, leave folders of old version(`x.y`) and folder `files` alone
+- Use custom styles for font
+- Disable media query for `div.document` and `div.sidemenu`, use menu trigger all the time with styles below:
+
+```css
+/* copied from 2nd media query for div.sidemenu */
+div.sidemenu > div.menutrigger {
+    display: block;
+    border: solid darkgreen 2px;
+    padding: 2px;
+    text-align: center;
+    width: 6ex;
+}
+
+div.sidemenu > div.menu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    font-size: 9pt;
+    text-align: left;
+    border: groove gray;
+    padding-right: 1ex;
+    background: #FFFAFA url("python-xml.png") no-repeat top right;
+}
+
+div.sidemenu:hover > div.menu,
+div.sidemenu.visible > div.menu {
+    display: block;
+}
+/* give the content some padding */
+div.document {padding:0 20px;color:#333;}
+```
+
+- Generate docset from these HTML files using [dashing](https://github.com/technosophos/dashing). Tweak the conf to get a better searchIndex.
+    - Remove 404 items in searchIndex if it's needed.
 
 ### PyQuery
 - https://pyquery.readthedocs.io/en/latest/

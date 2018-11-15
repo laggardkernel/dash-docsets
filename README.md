@@ -16,6 +16,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
 - Celery
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Celery.xml
+- lxml
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
 - PyQuery
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyQuery.xml
 - pysheeet

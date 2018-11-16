@@ -146,6 +146,19 @@ Documentation content
 - http://docs.celeryproject.org/en/v4.2.1/
 - Try to preserve the style, only code font is overridden
 
+### Flask-RESTful
+- https://flask-restful.readthedocs.io/en/0.3.6/
+- `_static/flasky.css`
+- Keep 1em indent on small screen:
+
+```css
+@media screen and (max-width: 870px) {
+    ul {
+        margin-left: 1em;
+    }
+}
+```
+
 ### lxml
 - https://lxml.de/
 - Get the HTML files by building from the source, or scraping from the webside

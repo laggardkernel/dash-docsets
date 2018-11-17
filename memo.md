@@ -146,6 +146,40 @@ Documentation content
 - http://docs.celeryproject.org/en/v4.2.1/
 - Try to preserve the style, only code font is overridden
 
+### Fabric
+- http://docs.fabfile.org/en/2.4/
+- `python setup.py develop`
+- `sites/shared_conf.py`
+- `export READTHEDOCS=True`, generate external links
+- `sphinx-build -b html -c . -d _build/doctrees . _build/html`
+- combine docs and www files together, relatify links with prefix `href="`:
+    - `http://www.fabfile.org` -> `www`
+    - `http://fabfile.org` -> `www/index.html`
+    - `http://docs.fabfile.org/en/latest` -> `..`
+    - `http://docs.fabfile.org` -> `../index.html`
+- Enable toctree for www files in `index.rst`:
+
+```
+Table of Contents
+-----------------
+
+.. toctree::
+    :maxdepth: 3
+
+    changelog
+    changelog-v1
+    FAQs <faq>
+    installing
+    installing-1.x
+    upgrading
+    development
+    troubleshooting
+    Roadmap <roadmap>
+    contact
+```
+
+- TODO: add docs of pyinvoke and paramiko
+
 ### Flask-RESTful
 - https://flask-restful.readthedocs.io/en/0.3.6/
 - `_static/flasky.css`

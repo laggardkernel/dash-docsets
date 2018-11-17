@@ -16,6 +16,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
 - Celery
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Celery.xml
+- Fabric
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Fabric.xml
 - Flask-RESTful
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
 - lxml

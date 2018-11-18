@@ -20,6 +20,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Fabric.xml
 - Flask-RESTful
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
+- Flask-Script
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Script.xml
 - lxml
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
 - marshmallow

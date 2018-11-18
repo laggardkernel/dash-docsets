@@ -153,10 +153,10 @@ Documentation content
 - `export READTHEDOCS=True`, generate external links
 - `sphinx-build -b html -c . -d _build/doctrees . _build/html`
 - combine docs and www files together, relatify links with prefix `href="`:
-    - `http://www.fabfile.org` -> `www`
-    - `http://fabfile.org` -> `www/index.html`
-    - `http://docs.fabfile.org/en/latest` -> `..`
-    - `http://docs.fabfile.org` -> `../index.html`
+    - `href="http://www.fabfile.org` -> `href="www`
+    - `href="http://fabfile.org` -> `href="www/index.html`
+    - `href="http://docs.fabfile.org/en/latest` -> `href="..`
+    - `href="http://docs.fabfile.org` -> `href="../index.html`
 - Enable toctree for www files in `index.rst`:
 
 ```
@@ -192,6 +192,11 @@ Table of Contents
     }
 }
 ```
+
+### Flask-Script
+- https://flask-script.readthedocs.io/en/latest/
+- `python setup.py develop`
+- Remove github badges after HTML files being built
 
 ### lxml
 - https://lxml.de/

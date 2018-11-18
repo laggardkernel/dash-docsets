@@ -8,43 +8,43 @@ Dash docsets with custom styles
 - I need a place to share these docsets.
 
 ### Docset Feeds
-- aiohttp
+- aiohttp, 3.4.4
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
-- Beautiful Soup
+- Beautiful Soup, 4.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Beautiful-Soup.xml
-- Bottle
+- Bottle, 0.12.13
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
-- Celery
+- Celery, 4.2.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Celery.xml
-- Fabric
+- Fabric, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Fabric.xml
-- Flask-Admin
+- Flask-Admin, 1.5.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Admin.xml
-- Flask-RESTful
+- Flask-RESTful, 0.3.6
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
-- Flask-Script
+- Flask-Script, 2.0.6
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Script.xml
-- lxml
+- lxml, 4.2.5
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
-- marshmallow
+- marshmallow, 3.0.0b20, 2.16.3
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/marshmallow.xml
-- PyQuery
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyQuery.xml
-- pysheeet
-    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
-- PyMongo
+- PyMongo, 3.7.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyMongo.xml
-- Pytest
+- PyQuery, 1.4.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyQuery.xml
+- pysheeet, 20181103
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
+- Pytest, 3.10.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pytest.xml
-- Requests
+- Requests, 2.20.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests.xml
-- Requests-HTML
+- Requests-HTML, 0.9.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-HTML.xml
-- Selenium Python
+- Selenium Python, 20181027
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Selenium-Python.xml
-- Setuptools
+- Setuptools, 40.5.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Setuptools.xml
-- Sphinx
+- Sphinx, 1.8.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sphinx.xml
-- Werkzeug
+- Werkzeug, 0.14.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Werkzeug.xml

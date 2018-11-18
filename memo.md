@@ -180,6 +180,21 @@ Table of Contents
 
 - TODO: add docs of pyinvoke and paramiko
 
+### Flask-Admin
+- https://flask-admin.readthedocs.io/en/v1.5.2/
+- `pip install -r requirements-dev.txt`
+- `sphinx-build -b html -c . -d _build/doctrees . _build/html`
+- `flasky` theme, modify `flasky.css` with font style override
+- Keep list indent on small screen:
+
+```css
+@media screen and (max-width: 870px) {
+    ul {
+        margin-left: 0;
+    }
+}
+```
+
 ### Flask-RESTful
 - https://flask-restful.readthedocs.io/en/0.3.6/
 - `_static/flasky.css`

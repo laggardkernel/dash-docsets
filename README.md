@@ -18,6 +18,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Celery.xml
 - Fabric
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Fabric.xml
+- Flask-Admin
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Admin.xml
 - Flask-RESTful
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
 - Flask-Script

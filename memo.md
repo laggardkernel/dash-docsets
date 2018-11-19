@@ -331,3 +331,8 @@ div.pageheader ul {margin-top:15px;}
 ### Werkzeug
 - http://werkzeug.pocoo.org/docs/0.14/
 - The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.
+
+### urllib3
+- https://urllib3.readthedocs.io/en/latest/
+- theme: alabaster
+- `pip install mock pyopenssl pysocks`

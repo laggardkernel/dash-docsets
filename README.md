@@ -48,3 +48,5 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sphinx.xml
 - Werkzeug, 0.14.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Werkzeug.xml
+- urllib3, 1.24.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/urllib3.xml

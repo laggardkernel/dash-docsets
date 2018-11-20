@@ -28,6 +28,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
 - marshmallow, 3.0.0b20, 2.16.3
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/marshmallow.xml
+- Pipenv, 20181114
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pipenv.xml
 - PyMongo, 3.7.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyMongo.xml
 - PyQuery, 1.4.0

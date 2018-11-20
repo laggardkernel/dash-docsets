@@ -255,6 +255,20 @@ div.document {padding:0 20px;color:#333;}
 ### marshmallow
 - Both 2.x and 3.x are needed
 
+### Pipenv
+- https://pipenv.readthedocs.io/en/latest/
+- theme: alabaster
+- `pip install -r ./docs/requirements.txt`
+- Remove decorations
+    - `div.section > h1 + img`
+    - `div.section > h1 ~ a.image-reference`
+- Enable javascript for vimeo video
+
+### PyMongo
+- https://api.mongodb.com/python/3.7.2/
+- https://github.com/mongodb/mongo-python-driver/
+- Remove left padding for `div.body`
+
 ### PyQuery
 - https://pyquery.readthedocs.io/en/latest/
 - `native` theme. Only two options are available:
@@ -263,11 +277,6 @@ div.document {padding:0 20px;color:#333;}
 - `html_css_files = ["custom.css"]`
 - Remove badges `a.image-reference` in `index.html`
 - Disable javascript since there's a ajax request for mathjax
-
-### PyMongo
-- https://api.mongodb.com/python/3.7.2/
-- https://github.com/mongodb/mongo-python-driver/
-- Remove left padding for `div.body`
 
 ### pysheeet, Cheatsheet of Python
 - https://www.pythonsheets.com/

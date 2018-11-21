@@ -146,6 +146,13 @@ Documentation content
 - http://docs.celeryproject.org/en/v4.2.1/
 - Try to preserve the style, only code font is overridden
 
+### Click
+- https://click.palletsprojects.com/en/7.x/
+- theme: click
+- Do not add padding or margin for `pre`
+- Resize margin between list items:
+    - `li > p {margin:0;}`
+
 ### Fabric
 - http://docs.fabfile.org/en/2.4/
 - `python setup.py develop`

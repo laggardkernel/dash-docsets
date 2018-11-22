@@ -14,6 +14,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Beautiful-Soup.xml
 - Bottle, 0.12.13
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
+- CacheControl, 0.12.5
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/CacheControl.xml
 - Click, 7.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Click.xml
 - Celery, 4.2.1

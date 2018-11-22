@@ -142,6 +142,21 @@ Documentation content
 - Use custom font styles since `bottle.css` replaces `alabaster.css`
     - `div.body {padding-left:30px;padding-right:30px;max-width:none !important;}`
 
+### CacheControl
+- https://cachecontrol.readthedocs.io/en/latest/
+- Replace default with theme: alabaster
+- Build index with dashing
+
+```json
+    "selectors": {
+        "h1, h2": {
+            "type": "Guide",
+            "regexp": "¶",
+            "replacement": ""
+        }
+    },
+```
+
 ### Celery
 - http://docs.celeryproject.org/en/v4.2.1/
 - Try to preserve the style, only code font is overridden

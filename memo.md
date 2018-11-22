@@ -314,6 +314,10 @@ div.document {padding:0 20px;color:#333;}
 - https://html.python-requests.org/
 - remove badges
 
+### Requests-Toolbelt
+- https://toolbelt.readthedocs.io/en/latest/
+- override theme sphinx_rtd_theme with alabaster
+
 ### Selenium Python
 - https://selenium-python.readthedocs.io/
 - confi file path: `selenium-python/source/conf.py`

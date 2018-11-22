@@ -46,6 +46,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests.xml
 - Requests-HTML, 0.9.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-HTML.xml
+- Requests-OAuthlib, 1.0.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-OAuthlib.xml
 - Requests-Toolbelt, 0.8.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-Toolbelt.xml
 - Selenium Python, 20181027

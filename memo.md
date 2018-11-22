@@ -329,6 +329,10 @@ div.document {padding:0 20px;color:#333;}
 - https://html.python-requests.org/
 - remove badges
 
+### Requests-OAuthlib
+- https://requests-oauthlib.readthedocs.io/en/latest/
+- `pip install requests-oauthlib`
+
 ### Requests-Toolbelt
 - https://toolbelt.readthedocs.io/en/latest/
 - override theme sphinx_rtd_theme with alabaster

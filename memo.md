@@ -168,6 +168,19 @@ Documentation content
 - Resize margin between list items:
     - `li > p {margin:0;}`
 
+### Conda
+- https://conda.io/docs/
+- https://github.com/conda/conda-docs
+- Override theme as alabaster
+- Enable toctree in `index.rst`
+    - Move `release-notes` to the end
+    - `:maxdepth: 2`
+- Dependencies `docs/deps.recipe/meta.yaml`
+    - `help2man`
+    - `man2html`
+    - `numpydoc`
+- `make html`
+
 ### Fabric
 - http://docs.fabfile.org/en/2.4/
 - `python setup.py develop`
@@ -285,6 +298,9 @@ div.document {padding:0 20px;color:#333;}
     - `div.section > h1 + img`
     - `div.section > h1 ~ a.image-reference`
 - Enable javascript for vimeo video
+- ~~Incorrect build: `install.html`, `basic.html`, `diagnose.html`~~(Fixed)
+    - `pip install -r ./docs/requirements.txt`
+    - Caused by "Title underline too short."
 
 ### PyMongo
 - https://api.mongodb.com/python/3.7.2/

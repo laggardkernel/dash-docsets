@@ -302,6 +302,12 @@ div.document {padding:0 20px;color:#333;}
     - `pip install -r ./docs/requirements.txt`
     - Caused by "Title underline too short."
 
+### Pygal
+- http://www.pygal.org/en/2.4.0/
+- Change theme as alabaster
+- `make watch`
+- Build docset with JavaScript enabled
+
 ### PyMongo
 - https://api.mongodb.com/python/3.7.2/
 - https://github.com/mongodb/mongo-python-driver/

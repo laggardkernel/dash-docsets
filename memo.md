@@ -248,6 +248,33 @@ Table of Contents
 - `python setup.py develop`
 - Remove github badges after HTML files being built
 
+### IPython
+- https://ipython.readthedocs.io/en/7.1.1/
+- https://github.com/ipython/ipython
+- `pip install -r docs/requirements.txt`
+- `pip install nose testpath`
+- Enable `toctree` with depth 2 in `index.rst`
+
+```python
+html_theme_options = {
+    "analytics_id": "",
+    "logo_only": False,
+    "display_version": False,
+    "prev_next_buttons_location": "bottom",
+    "style_external_links": False,
+    "vcs_pageview_mode": "",
+    # Toc options
+    "collapse_navigation": True,
+    "sticky_navigation": True,
+    "navigation_depth": 34,
+    "includehidden": True,
+    "titles_only": False,
+}
+```
+
+- Override styles of font-family in `_static/css/theme.css`
+- Build docset with JavaScript enabled
+
 ### lxml
 - https://lxml.de/
 - Get the HTML files by building from the source, or scraping from the webside
@@ -289,6 +316,18 @@ div.document {padding:0 20px;color:#333;}
 
 ### marshmallow
 - Both 2.x and 3.x are needed
+
+### Matplotlib
+- Failed to build
+- https://matplotlib.org/2.2.3/
+- https://matplotlib.org/3.0.2/
+- Download source from the doc branches with `git clone`
+    - `https://github.com/matplotlib/matplotlib.git`
+    - `git clone -b v2.2.3-doc https://github.com/matplotlib/matplotlib.git matplotlib-v2.2.3-doc`
+    - `git clone -b v3.0.2-doc https://github.com/matplotlib/matplotlib.git matplotlib-v3.0.2-doc`
+- `pip install -r requirements/doc-requirements.txt`
+- `brew install graphviz`
+- `brew cask install basictex`
 
 ### Pipenv
 - https://pipenv.readthedocs.io/en/latest/

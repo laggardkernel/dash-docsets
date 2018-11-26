@@ -28,6 +28,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
 - Flask-Script, 2.0.6
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Script.xml
+- IPython, 7.1.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/IPython.xml
 - lxml, 4.2.5
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
 - marshmallow, 3.0.0b20, 2.16.3

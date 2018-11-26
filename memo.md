@@ -389,6 +389,12 @@ div.pageheader img {height:50px;}
 div.pageheader ul {margin-top:15px;}
 ```
 
+### Supervisor
+- http://supervisord.org/
+- Change theme as alabaster
+- Disable `html_style` in `conf.py`
+- `python2 setup.py develop`
+
 ### Werkzeug
 - http://werkzeug.pocoo.org/docs/0.14/
 - The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.

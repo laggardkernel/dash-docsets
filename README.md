@@ -24,6 +24,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Fabric.xml
 - Flask-Admin, 1.5.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Admin.xml
+- Flask-Bootstrap, 3.3.7.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Bootstrap.xml
 - Flask-RESTful, 0.3.6
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
 - Flask-Script, 2.0.6

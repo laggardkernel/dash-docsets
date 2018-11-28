@@ -151,7 +151,7 @@ Documentation content
     "selectors": {
         "h1, h2": {
             "type": "Guide",
-            "regexp": "¶",
+            "regexp": "ï¿½",
             "replacement": ""
         }
     },
@@ -230,6 +230,9 @@ Table of Contents
 }
 ```
 
+### Flask-Bootstrap
+- https://pythonhosted.org/Flask-Bootstrap/
+
 ### Flask-RESTful
 - https://flask-restful.readthedocs.io/en/0.3.6/
 - `_static/flasky.css`
@@ -254,6 +257,7 @@ Table of Contents
 - `pip install -r docs/requirements.txt`
 - `pip install nose testpath`
 - Enable `toctree` with depth 2 in `index.rst`
+    - Enable `toctree` in all source files
 
 ```python
 html_theme_options = {

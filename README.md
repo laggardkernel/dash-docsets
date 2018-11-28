@@ -40,6 +40,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pipenv.xml
 - Pygal, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pygal.xml
+- PyJWT, 1.7.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyJWT.xml
 - PyMongo, 3.7.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyMongo.xml
 - PyQuery, 1.4.0

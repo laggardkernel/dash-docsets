@@ -351,6 +351,10 @@ div.document {padding:0 20px;color:#333;}
 - `make watch`
 - Build docset with JavaScript enabled
 
+### PyJWT
+- https://pyjwt.readthedocs.io/en/latest/
+- Use alabaster as the default theme
+
 ### PyMongo
 - https://api.mongodb.com/python/3.7.2/
 - https://github.com/mongodb/mongo-python-driver/

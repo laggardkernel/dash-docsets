@@ -446,6 +446,18 @@ div.pageheader ul {margin-top:15px;}
 - http://werkzeug.pocoo.org/docs/0.14/
 - The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.
 
+### WTForms
+- https://wtforms.readthedocs.io/en/stable/
+- Custom CSS is used by the doc. Change the `main.css` directly.
+
+```css
+/* additional */
+#body {
+    margin: auto;
+    max-width: none;
+}
+```
+
 ### urllib3
 - https://urllib3.readthedocs.io/en/latest/
 - theme: alabaster

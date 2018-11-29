@@ -68,5 +68,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Supervisor.xml
 - Werkzeug, 0.14.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Werkzeug.xml
+- WTForms, 2.2.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/WTForms.xml
 - urllib3, 1.24.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/urllib3.xml

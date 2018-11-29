@@ -95,6 +95,12 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - aiohttp theme is based on alabaster, so all options are available.
 - Combine aiohttp doc and [aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) doc together with relative path in `href`
 
+### Babel
+- http://babel.pocoo.org/en/latest/
+- Custom bable theme based on basic.
+    - Only support `"nosidebar": True` in `html_theme_options`
+- Modifying `babel.css` is needed: style, font.
+
 ### BeautifulSoup
 - https://www.crummy.com/software/BeautifulSoup/bs4/download/
 - https://www.crummy.com/software/BeautifulSoup/bs4/doc/

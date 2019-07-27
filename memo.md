@@ -257,6 +257,12 @@ Table of Contents
 - `python setup.py develop`
 - Remove github badges after HTML files being built
 
+### Flask-SQLAlchemy
+- https://flask-sqlalchemy.palletsprojects.com/en/2.x/ (3.x is still in development)
+- `pip install -r docs/requirements.txt`
+- Remove sidebar
+- Override default font in `flask.css` after building html
+
 ### IPython
 - https://ipython.readthedocs.io/en/7.1.1/
 - https://github.com/ipython/ipython

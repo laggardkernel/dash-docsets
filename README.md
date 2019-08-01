@@ -40,7 +40,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
 - marshmallow, 3.0.0b20, 2.16.3
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/marshmallow.xml
-- Pipenv, 20181114
+- Pipenv, 2018.11.26
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pipenv.xml
 - Pygal, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pygal.xml

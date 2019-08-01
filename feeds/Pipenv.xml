@@ -1,5 +1,10 @@
 <entry>
-    <version>20181114</version>
+    <version>2018.11.26</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Pipenv.tgz</url>
+    <other-versions>
+        <version>
+            <name>2018.11.14</name>
+        </version>
+    </other-versions>
 </entry>

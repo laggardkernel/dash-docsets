@@ -353,8 +353,7 @@ div.document {padding:0 20px;color:#333;}
     - `div.section > h1 + img`
     - `div.section > h1 ~ a.image-reference`
 - Enable javascript for vimeo video
-- ~~Incorrect build: `install.html`, `basic.html`, `diagnose.html`~~(Fixed)
-    - `pip install -r ./docs/requirements.txt`
+- ~~Incorrect build: `install.html`~~ (Fix them manually)
     - Caused by "Title underline too short."
 
 ### Pygal

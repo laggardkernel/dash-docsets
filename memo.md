@@ -241,7 +241,7 @@ Table of Contents
 
 ### Flask-RESTful
 - https://flask-restful.readthedocs.io/en/0.3.6/
-- `_static/flasky.css`
+- Modify `_static/flasky.css` with font style override
 - Keep 1em indent on small screen:
 
 ```css
@@ -262,6 +262,21 @@ Table of Contents
 - `pip install -r docs/requirements.txt`
 - Remove sidebar
 - Override default font in `flask.css` after building html
+
+### Flask-WTF
+- https://flask-wtf.readthedocs.io/en/stable/
+- `pip install Flask-Sphinx-Themes`
+- `__import__("flask_sphinx_themes")` in `docs/conf.py`
+- Modify `_static/flasky.css`
+- Keep 1em indent on small screen:
+
+```css
+@media screen and (max-width: 875px) {
+    ul {
+        margin-left: 1em;
+    }
+}
+```
 
 ### IPython
 - https://ipython.readthedocs.io/en/7.1.1/

@@ -34,6 +34,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Script.xml
 - Flask-SQLAlchemy, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-SQLAlchemy.xml
+- Flask-WTF, 0.14.2
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-WTF.xml
 - IPython, 7.1.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/IPython.xml
 - lxml, 4.2.5

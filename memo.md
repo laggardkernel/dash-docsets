@@ -346,7 +346,11 @@ div.document {padding:0 20px;color:#333;}
     - Remove 404 items in searchIndex if it's needed.
 
 ### marshmallow
+- https://marshmallow.readthedocs.io/en/2.x-line/
+- https://marshmallow.readthedocs.io/en/3.0/
 - Both 2.x and 3.x are needed
+- `pip install sphinx{,issues,version-warning}`
+- Modify `static/custom.css`
 
 ### Matplotlib
 - Failed to build

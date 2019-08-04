@@ -1,8 +1,14 @@
 <entry>
-    <version>3.0.0b20</version>
+    <version>3.0.0rc9</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/marshmallow.tgz</url>
     <other-versions>
+        <version>
+            <name>2.19.5</name>
+        </version>
+        <version>
+            <name>3.0.0b20</name>
+        </version>
         <version>
             <name>2.16.3</name>
         </version>

@@ -1,5 +1,10 @@
 <entry>
-    <version>3.7.2</version>
+    <version>3.8.0</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/PyMongo.tgz</url>
+    <other-versions>
+        <version>
+            <name>3.7.2</name>
+        </version>
+    </other-versions>
 </entry>

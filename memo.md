@@ -386,9 +386,29 @@ div.document {padding:0 20px;color:#333;}
 - Use alabaster as the default theme
 
 ### PyMongo
-- https://api.mongodb.com/python/3.7.2/
+- https://api.mongodb.com/python/3.8.0/
 - https://github.com/mongodb/mongo-python-driver/
-- Remove left padding for `div.body`
+
+`conf.py` option doesn't work for theme `pydoctheme`, enable custom css file,
+
+```html
+html_css_files = ["custom.css"]
+```
+
+Override font family and text color. Remove left padding for `div.body`.
+
+```css
+div.footer {width:auto; max-width:none;} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
+div.body {max-width:none !important; padding-left:0px;}
+
+pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
+div.admonition {margin:20px 0; padding:10px 10px;}
+
+body, div.body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;color:#3E4349;}
+div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
+pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em!important;}
+h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
+```
 
 ### PyQuery
 - https://pyquery.readthedocs.io/en/latest/

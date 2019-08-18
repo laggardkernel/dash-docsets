@@ -37,7 +37,7 @@ Tweak width of content, sidebar, margin, etc, with custom css.
  */
 div.footer {width:auto; max-width:none;} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
 body {padding-left:30px;padding-right:30px;max-width:none !important;}
-div.body {padding-left: 0; padding-right: 0;}
+div.body {padding-left:0;padding-right:0;max-width:none !important;}
 
 pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
 div.admonition {margin:20px 0; padding:10px 10px;}
@@ -249,7 +249,7 @@ Table of Contents
 - Remove side padding from `div.body`, leave it on `body`
 
 ```css
-/* flasky.css */
+/* custom.css */
 @media screen and (max-width: 875px) {
     ul {
         margin-left: 1em;
@@ -274,6 +274,20 @@ Table of Contents
 - https://flask-script.readthedocs.io/en/latest/
 - `python setup.py develop`
 - Remove github badges after HTML files being built
+
+### Flask-Security
+- https://pythonhosted.org/Flask-Security/
+- `pip install -r docs/requirements.txt`
+- Override content width and font family in `custom.css`
+
+```css
+/* custom.css */
+@media screen and (max-width: 875px) {
+    ul {
+        margin-left: 1em;
+    }
+}
+```
 
 ### Flask-SQLAlchemy
 - https://flask-sqlalchemy.palletsprojects.com/en/2.x/ (3.x is still in development)

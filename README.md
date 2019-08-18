@@ -34,6 +34,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
 - Flask-Script, 2.0.6
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Script.xml
+- Flask-Security, 3.0.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Security.xml
 - Flask-SQLAlchemy, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-SQLAlchemy.xml
 - Flask-WTF, 0.14.2

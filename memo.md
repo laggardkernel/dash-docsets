@@ -25,6 +25,8 @@ html_theme_options = {
     'code_font_family': "Monaco, Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
     'code_font_size': '0.85em',
 }
+
+html_css_files = ["custom.css"]
 ```
 
 Tweak width of content, sidebar, margin, etc, with custom css.
@@ -34,7 +36,8 @@ Tweak width of content, sidebar, margin, etc, with custom css.
  * docs/_build/html/_static/custom.css
  */
 div.footer {width:auto; max-width:none;} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
-div.body {padding-left:30px;padding-right:30px;max-width:none !important;}
+body {padding-left:30px;padding-right:30px;max-width:none !important;}
+div.body {padding-left: 0; padding-right: 0;}
 
 pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
 div.admonition {margin:20px 0; padding:10px 10px;}
@@ -238,6 +241,21 @@ Table of Contents
 
 ### Flask-Bootstrap
 - https://pythonhosted.org/Flask-Bootstrap/
+
+### Flask-DebugToolbar
+- https://flask-debugtoolbar.readthedocs.io/en/stable/
+- `pip install Flask-Sphinx-Themes`
+- Override content width and font family in `custom.css`
+- Remove side padding from `div.body`, leave it on `body`
+
+```css
+/* flasky.css */
+@media screen and (max-width: 875px) {
+    ul {
+        margin-left: 1em;
+    }
+}
+```
 
 ### Flask-RESTful
 - https://flask-restful.readthedocs.io/en/0.3.6/

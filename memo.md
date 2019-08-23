@@ -257,6 +257,11 @@ Table of Contents
 }
 ```
 
+### Flask-Login
+- https://flask-login.readthedocs.io/en/0.4.1/
+- Override layout and font family in `custom.css`
+- Remove github badge manually
+
 ### Flask-RESTful
 - https://flask-restful.readthedocs.io/en/0.3.6/
 - Modify `_static/flasky.css` with font style override

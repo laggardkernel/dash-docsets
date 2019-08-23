@@ -30,6 +30,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Bootstrap.xml
 - Flask-DebugToolbar, 0.10.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-DebugToolbar.xml
+- Flask-Login 0.4.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Login.xml
 - Flask-RESTful, 0.3.6
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-RESTful.xml
 - Flask-Script, 2.0.6

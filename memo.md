@@ -50,7 +50,7 @@ Use styles below to modify font family if `html_theme_options` doesn't support f
 ```css
 body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;}
 div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
-pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em!important;}
+pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em !important;}
 h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
 /* optional */
 /* body, div.body {...; color:#3E4349} */
@@ -189,6 +189,14 @@ Documentation content
     - `man2html`
     - `numpydoc`
 - `make html`
+
+### Django
+- Based on docset distributed by Dash
+- Customize font family only in `pygments.css`
+
+```css
+body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 17px !important;line-height:1.4;}
+```
 
 ### Fabric
 - http://docs.fabfile.org/en/2.4/

@@ -1,0 +1,14 @@
+/* custom */
+div.footer {width:auto; max-width:none;} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
+body {padding-left:30px;padding-right:30px;max-width:none !important;}
+div.body {padding-left:0;padding-right:0;max-width:none !important;}
+
+pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
+div.admonition {margin:20px 0; padding:10px 10px;}
+
+body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;}
+div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
+pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em !important;}
+h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
+/* optional */
+/* body, div.body {...; color:#3E4349} */

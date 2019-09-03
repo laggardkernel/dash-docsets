@@ -237,7 +237,8 @@ Table of Contents
 - `pip install -r requirements-dev.txt`
 - `sphinx-build -b html -c . -d _build/doctrees . _build/html`
 - `flasky` theme, modify `flasky.css` with font style override
-- Keep list indent on small screen:
+
+Keep list indentation on small screen with:
 
 ```css
 @media screen and (max-width: 870px) {
@@ -249,6 +250,27 @@ Table of Contents
 
 ### Flask-Bootstrap
 - https://pythonhosted.org/Flask-Bootstrap/
+
+### Flask-CKEditor
+- https://github.com/greyli/flask-ckeditor/
+- https://flask-ckeditor.readthedocs.io/en/stable/
+- Override font family with `custom.css`
+
+```shell
+pip install -r docs_requirements.txt
+pip install wtforms
+```
+
+Keep list indentation on small screen with:
+
+```css
+/* custom.css */
+@media screen and (max-width: 870px) {
+    ul {
+        margin-left: 1em;
+    }
+}
+```
 
 ### Flask-DebugToolbar
 - https://flask-debugtoolbar.readthedocs.io/en/stable/

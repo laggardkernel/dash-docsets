@@ -28,6 +28,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Admin.xml
 - Flask-Bootstrap, 3.3.7.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Bootstrap.xml
+- Flask-CKEditor, 0.4.3
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-CKEditor.xml
 - Flask-DebugToolbar, 0.10.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-DebugToolbar.xml
 - Flask-Login 0.4.1

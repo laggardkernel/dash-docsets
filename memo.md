@@ -22,7 +22,7 @@ html_theme_options = {
     'font_family': "'Gentium Book Basic', Georgia, 'Bitstream Charter', Hiragino Mincho Pro, serif",
     'font_size': '1.0625rem',
     'head_font_family': "Garamond, Georgia, 'Bitstream Charter', serif",
-    'code_font_family': "Monaco, Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
+    'code_font_family': "Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
     'code_font_size': '0.85em',
 }
 
@@ -50,7 +50,7 @@ Use styles below to modify font family if `html_theme_options` doesn't support f
 ```css
 body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;}
 div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
-pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em !important;}
+pre, tt, code {font-family: Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em !important;}
 h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
 /* optional */
 /* body, div.body {...; color:#3E4349} */

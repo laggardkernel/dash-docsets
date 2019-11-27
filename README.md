@@ -50,6 +50,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
 - marshmallow, 3.0.0rc9, 2.19.5
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/marshmallow.xml
+- Peewee, 3.12.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Peewee.xml
 - Pipenv, 2018.11.26
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pipenv.xml
 - Pygal, 2.4.0

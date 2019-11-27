@@ -431,6 +431,11 @@ div.document {padding:0 20px;color:#333;}
 - `brew install graphviz`
 - `brew cask install basictex`
 
+### Peewee
+- http://docs.peewee-orm.com/en/latest/
+- https://github.com/coleifer/peewee
+- Choose the "alabaster" theme, not the classic one
+
 ### Pipenv
 - https://pipenv.readthedocs.io/en/latest/
 - theme: alabaster

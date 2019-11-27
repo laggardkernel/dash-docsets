@@ -436,6 +436,11 @@ div.document {padding:0 20px;color:#333;}
 - https://github.com/coleifer/peewee
 - Choose the "alabaster" theme, not the classic one
 
+### Peewee Async
+- https://peewee-async.readthedocs.io/en/latest/
+- https://github.com/05bit/peewee-async
+- Choose the "alabaster" theme, not the classic one
+
 ### Pipenv
 - https://pipenv.readthedocs.io/en/latest/
 - theme: alabaster

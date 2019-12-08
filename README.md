@@ -76,6 +76,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-OAuthlib.xml
 - Requests-Toolbelt, 0.8.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-Toolbelt.xml
+- Sanic, 19.9.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sanic.xml
 - Selenium Python, 20181027
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Selenium-Python.xml
 - Setuptools, 40.5.0

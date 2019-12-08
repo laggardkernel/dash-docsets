@@ -533,6 +533,10 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 - https://toolbelt.readthedocs.io/en/latest/
 - override theme sphinx_rtd_theme with alabaster
 
+### Sanic
+- https://sanic.readthedocs.io/en/latest/
+- https://github.com/huge-success/sanic
+
 ### Selenium Python
 - https://selenium-python.readthedocs.io/
 - confi file path: `selenium-python/source/conf.py`

@@ -22,7 +22,7 @@ html_theme_options = {
     'font_family': "'Gentium Book Basic', Georgia, 'Bitstream Charter', Hiragino Mincho Pro, serif",
     'font_size': '1.0625rem',
     'head_font_family': "Garamond, Georgia, 'Bitstream Charter', serif",
-    'code_font_family': "Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
+    'code_font_family': "'IBM Plex Mono', Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
     'code_font_size': '0.85em',
 }
 

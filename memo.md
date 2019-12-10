@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 - Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.
 
 ### Pytest
-- https://docs.pytest.org/en/3.10.0/
+- https://docs.pytest.org/en/4.6.3/
 - Based on flask theme, no useful options for docset generation
 - Fix indent of unordered list in media query:
 

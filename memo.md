@@ -537,6 +537,20 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 - https://sanic.readthedocs.io/en/latest/
 - https://github.com/huge-success/sanic
 
+### Sanic JWT
+- Use the new default theme alabaster but not the classic
+- https://sanic-jwt.readthedocs.io/en/latest/
+- https://github.com/ahopkins/sanic-jwt
+- Remove badges on `index.html`
+
+```css
+@media screen and (max-width: 870px) {
+    ul {
+        margin-left: 1em;
+    }
+}
+```
+
 ### Selenium Python
 - https://selenium-python.readthedocs.io/
 - confi file path: `selenium-python/source/conf.py`

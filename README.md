@@ -24,6 +24,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Click.xml
 - Celery, 4.2.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Celery.xml
+- Elasticsearch-Py, 6.4.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Elasticsearch-Py.xml
 - Fabric, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Fabric.xml
 - Flask-Admin, 1.5.2

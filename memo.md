@@ -204,6 +204,10 @@ Documentation content
 body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 17px !important;line-height:1.4;}
 ```
 
+### Elasticsearch-Py
+- https://github.com/elastic/elasticsearch-py
+- https://elasticsearch-py.readthedocs.io/en/6.3.1/
+
 ### Fabric
 - http://docs.fabfile.org/en/2.4/
 - `python setup.py develop`

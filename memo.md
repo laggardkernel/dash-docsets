@@ -98,6 +98,10 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - aiohttp theme is based on alabaster, so all options are available.
 - Combine aiohttp doc and [aiohttp-demos](https://github.com/aio-libs/aiohttp-demos) doc together with relative path in `href`
 
+### aioredis
+- https://aioredis.readthedocs.io/en/v1.3.1/
+- https://github.com/aio-libs/aioredis/
+
 ### asyncpg
 - https://magicstack.github.io/asyncpg/current/
 - https://github.com/MagicStack/asyncpg

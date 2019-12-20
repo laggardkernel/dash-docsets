@@ -10,6 +10,8 @@ Dash docsets with custom styles
 ### Docset Feeds
 - aiohttp, 3.4.4
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
+- aioredis, 1.3.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aioredis.xml
 - asyncpg, 0.20.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/asyncpg.xml
 - Babel, 2.6.0

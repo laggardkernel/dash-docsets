@@ -92,6 +92,11 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 ```
 
 ## Specific Formulae
+### aiocache
+- https://aiocache.readthedocs.io/en/0.11.1/
+- https://github.com/argaen/aiocache
+- `pip install ".[redis,memcached,msgpack,dev]"`
+
 ### aiohttp
 - https://aiohttp.readthedocs.io/en/stable/
 - [Detailed generation steps](https://github.com/Kapeli/Dash-User-Contributions/blob/3ac3210d4fc1ce68ce39e54138617e538603dd5d/docsets/aiohttp/README.md)

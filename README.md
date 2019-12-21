@@ -8,6 +8,8 @@ Dash docsets with custom styles
 - I need a place to share these docsets.
 
 ### Docset Feeds
+- aiocache, 0.11.1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiocache.xml
 - aiohttp, 3.4.4
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
 - aioredis, 1.3.1

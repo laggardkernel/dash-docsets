@@ -9,7 +9,8 @@ Edit `docs/conf.py`
 - enable custom styles at the end of `conf.py`, if it's available
 
 ```python
-# options for html_theme = "alabaster"
+# options for alabaster
+html_theme = "alabaster"
 html_theme_options = {
     'nosidebar': True,
     'show_powered_by': True,
@@ -38,9 +39,17 @@ Tweak width of content, sidebar, margin, etc, with custom css.
 div.footer {width:auto; max-width:none;} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
 body {padding-left:30px;padding-right:30px;max-width:none !important;}
 div.body {padding-left:0;padding-right:0;max-width:none !important;}
-
 pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
 div.admonition {margin:20px 0; padding:10px 10px;}
+```
+
+```css
+// indent of the list
+@media screen and (max-width: 870px) {
+    ol, ul {
+        margin-left: 1em;
+    }
+}
 ```
 
 First part of the styles above is borrowed from Dash docset named Flask, which I think is added by Kapeli, the creator of Dash.
@@ -48,12 +57,10 @@ First part of the styles above is borrowed from Dash docset named Flask, which I
 Use styles below to modify font family if `html_theme_options` doesn't support font settings.
 
 ```css
-body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;}
+body, div.body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter',serif;font-size:1.0625rem;line-height:1.4;color:#3E4349;}
 div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
-pre, tt, code {font-family: Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em !important;}
+pre, tt, code {font-family: 'IBM Plex Mono',Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em!important;}
 h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
-/* optional */
-/* body, div.body {...; color:#3E4349} */
 ```
 
 Build HTML doc, with `make html`, or
@@ -280,31 +287,11 @@ pip install -r docs_requirements.txt
 pip install wtforms
 ```
 
-Keep list indentation on small screen with:
-
-```css
-/* custom.css */
-@media screen and (max-width: 870px) {
-    ul {
-        margin-left: 1em;
-    }
-}
-```
-
 ### Flask-DebugToolbar
 - https://flask-debugtoolbar.readthedocs.io/en/stable/
 - `pip install Flask-Sphinx-Themes`
 - Override content width and font family in `custom.css`
 - Remove side padding from `div.body`, leave it on `body`
-
-```css
-/* custom.css */
-@media screen and (max-width: 875px) {
-    ul {
-        margin-left: 1em;
-    }
-}
-```
 
 ### Flask-Login
 - https://flask-login.readthedocs.io/en/0.4.1/
@@ -314,15 +301,6 @@ Keep list indentation on small screen with:
 ### Flask-RESTful
 - https://flask-restful.readthedocs.io/en/0.3.6/
 - Modify `_static/flasky.css` with font style override
-- Keep 1em indent on small screen:
-
-```css
-@media screen and (max-width: 870px) {
-    ul {
-        margin-left: 1em;
-    }
-}
-```
 
 ### Flask-Script
 - https://flask-script.readthedocs.io/en/latest/
@@ -333,15 +311,6 @@ Keep list indentation on small screen with:
 - https://pythonhosted.org/Flask-Security/
 - `pip install -r docs/requirements.txt`
 - Override content width and font family in `custom.css`
-
-```css
-/* custom.css */
-@media screen and (max-width: 875px) {
-    ul {
-        margin-left: 1em;
-    }
-}
-```
 
 ### Flask-SQLAlchemy
 - https://flask-sqlalchemy.palletsprojects.com/en/2.x/ (3.x is still in development)
@@ -354,15 +323,6 @@ Keep list indentation on small screen with:
 - `pip install Flask-Sphinx-Themes`
 - `__import__("flask_sphinx_themes")` in `docs/conf.py`
 - Modify `_static/flasky.css`
-- Keep 1em indent on small screen:
-
-```css
-@media screen and (max-width: 875px) {
-    ul {
-        margin-left: 1em;
-    }
-}
-```
 
 ### IPython
 - https://ipython.readthedocs.io/en/7.1.1/
@@ -523,16 +483,6 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 ### Pytest
 - https://docs.pytest.org/en/4.6.3/
 - Based on flask theme, no useful options for docset generation
-- Fix indent of unordered list in media query:
-
-```css
-@media screen and (max-width: 870px) {
-    ul {
-        margin-left: 1em;
-    }
-}
-```
-
 - Maybe it's a good idea to use theme `alabaster` since those two are very similar
 
 ### Requests
@@ -561,14 +511,6 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 - https://sanic-jwt.readthedocs.io/en/latest/
 - https://github.com/ahopkins/sanic-jwt
 - Remove badges on `index.html`
-
-```css
-@media screen and (max-width: 870px) {
-    ul {
-        margin-left: 1em;
-    }
-}
-```
 
 ### Selenium Python
 - https://selenium-python.readthedocs.io/

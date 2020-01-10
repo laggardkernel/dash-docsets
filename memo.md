@@ -548,6 +548,10 @@ div.pageheader ul {margin-top:15px;}
 - Disable `html_style` in `conf.py`
 - `python2 setup.py develop`
 
+### WeasyPrint
+- https://weasyprint.readthedocs.io/en/v51/
+- https://github.com/Kozea/WeasyPrint
+
 ### Werkzeug
 - http://werkzeug.pocoo.org/docs/0.14/
 - The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.

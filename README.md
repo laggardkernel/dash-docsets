@@ -96,6 +96,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sphinx.xml
 - Supervisor, 3.3.4
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Supervisor.xml
+- WeasyPrint, 51
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/WeasyPrint.xml
 - Werkzeug, 0.14.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Werkzeug.xml
 - WTForms, 2.2.1

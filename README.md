@@ -64,6 +64,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Peewee-Async.xml
 - Pipenv, 2018.11.26
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pipenv.xml
+- Psycopg, 2.8.5
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Psycopg.xml
 - Pygal, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pygal.xml
 - PyJWT, 1.7.1

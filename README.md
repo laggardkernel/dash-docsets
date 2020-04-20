@@ -58,6 +58,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/lxml.xml
 - marshmallow, 3.0.0rc9, 2.19.5
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/marshmallow.xml
+- Mutagen, 1.44.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Mutagen.xml
 - Peewee, 3.12.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Peewee.xml
 - Peewee Async, 0.6.0

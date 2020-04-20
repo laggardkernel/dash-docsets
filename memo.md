@@ -133,8 +133,8 @@ wget http://kapeli.com/feeds/zzz/docsetcontrib.tgz && tar -xzf docsetcontrib.tgz
 - Generate a toc behind "Getting help" since the toc in sidebar is removed:
 
 ```restructured
-Documentation content
----------------------
+Table of Content
+----------------
 
 .. toctree::
    :maxdepth: 3
@@ -409,6 +409,11 @@ div.document {padding:0 20px;color:#333;}
 - `pip install -r requirements/doc-requirements.txt`
 - `brew install graphviz`
 - `brew cask install basictex`
+
+### Mutagen
+- `index.rst`, enable `:toctree`, move to the end with heading "Table of Contents"
+- https://mutagen.readthedocs.io/en/latest/
+- https://github.com/quodlibet/mutagen/
 
 ### Peewee
 - http://docs.peewee-orm.com/en/latest/

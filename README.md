@@ -10,7 +10,7 @@ Dash docsets with custom styles
 ### Docset Feeds
 - aiocache, 0.11.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiocache.xml
-- aiohttp, 3.4.4
+- aiohttp, 3.6.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aiohttp.xml
 - aioredis, 1.3.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/aioredis.xml

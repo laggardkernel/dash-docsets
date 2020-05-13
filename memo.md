@@ -514,6 +514,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 ### Sanic
 - https://sanic.readthedocs.io/en/latest/
 - https://github.com/huge-success/sanic
+- `pip install -e . ".[docs]"`
 
 ### Sanic JWT
 - Use the new default theme alabaster but not the classic

@@ -1,5 +1,8 @@
 <entry>
-    <version>20181103</version>
+    <version>20200512</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/pysheeet.tgz</url>
+    <other-versions>
+        <version><name>20181103</name></version>
+    </other-versions>
 </entry>

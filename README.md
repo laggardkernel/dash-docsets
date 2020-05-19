@@ -76,7 +76,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyMongo.xml
 - PyQuery, 1.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyQuery.xml
-- pysheeet, 20181103
+- pysheeet, 20200512
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
 - Pytest, 4.6.7
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pytest.xml

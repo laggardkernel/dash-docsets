@@ -1,5 +1,8 @@
 <entry>
-    <version>7.0</version>
+    <version>7.1.2</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Click.tgz</url>
+    <other-versions>
+        <version><name>7.0</name></version>
+    </other-versions>
 </entry>

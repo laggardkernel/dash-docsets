@@ -199,6 +199,8 @@ Table of Content
 ### Click
 - https://click.palletsprojects.com/en/7.x/
 - theme: click
+- `pip install -r docs/requirements.txt`
+- Do customization in `click.css`
 - Do not add padding or margin for `pre`
 - Resize margin between list items:
     - `li > p {margin:0;}`

@@ -1,0 +1,268 @@
+div.footer {width:auto; max-width:none;} div.document {max-width:none; width: auto} div.related {display:none;} div.sphinxsidebar {display:none;} a.headerlink {display:none;} div.bodywrapper {margin: 0 0 0 0px;}
+body {padding-left:30px;padding-right:30px;max-width:none !important;}
+div.body {padding-left:0;padding-right:0;max-width:none !important;}
+pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
+div.admonition {margin:20px 0; padding:10px 10px;}
+
+
+.field-name {
+    /* Fix for https://github.com/bitprophet/alabaster/issues/95 */
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    -webkit-hyphens: manual;
+    hyphens: manual;
+
+    width: 110px;  /* Prevent "Return type:" from wrapping. */
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+    text-decoration: none;
+    border: none;
+}
+
+div.footer {
+    text-align: center;
+}
+
+div.footer a:hover {
+    border-bottom: none;
+}
+
+dd ul, dd table {
+    margin-bottom: 1.4em;
+}
+
+table.field-list th, table.field-list td {
+    padding-top: 1em;
+}
+
+table.field-list tbody tr:first-child th, table.field-list tbody tr:first-child td {
+    padding-top: 0;
+}
+
+code.docutils.literal {
+    background-color: rgba(0, 0, 0, 0.06);
+    padding: 2px 5px 1px 5px;
+    font-size: 0.88em;
+}
+
+code.xref.docutils.literal {
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+div.viewcode-block:target {
+    background: inherit;
+    background-color: #dadada;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:hover, div.sphinxsidebar a:hover, a.reference:hover, a.reference.internal:hover code {
+    color: #f0ad4e;
+    border-bottom: 1px solid #f0ad4e;
+}
+
+a, div.sphinxsidebar a, a.reference, a code.literal {
+    color: #c77c11;
+    border: none;
+}
+
+.highlight pre span {
+    line-height: 1.5em;
+}
+
+.field-body cite {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Hide theme's default logo section */
+.logo a {
+    display: none;
+}
+
+#logo {
+    position: relative;
+    left: -13px;
+}
+
+#logo a,
+#logo a:hover {
+    border-bottom: none;
+}
+
+#logo img {
+    margin: 0;
+    padding: 0;
+}
+
+#gh-buttons {
+    margin-top: 2em;
+}
+
+#dev-warning {
+    background-color: #fdfbe8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 1em;
+ }
+
+div.warning {
+    background-color: #fdfbe8;
+    border: 1px solid #ccc;
+}
+
+div.body h1,
+div.body h2,
+div.body h3,
+div.body h4,
+div.body h5,
+div.body h6,
+div.sphinxsidebar h3 {
+    color: #444;
+}
+
+div.sphinxsidebar h3 {
+    margin: 1.5em 0 0 0;
+}
+
+div.sphinxsidebar ul {
+    margin-top: 5px;
+}
+
+div.sphinxsidebarwrapper {
+    padding-top: 0;
+}
+
+div.admonition p.admonition-title {
+   display: block;
+   line-height: 1.4em;
+}
+
+div.admonition .last.highlight-default {
+    display: inline-block;
+    font-size: smaller;
+}
+
+pre {
+    /*background-color: #212529;*/
+    padding: 1.25em 30px;
+}
+
+.highlight pre {
+    font-size: smaller;
+}
+
+
+/* NOTE(kgriffs): Make sure that characters in plain text blocks line up correctly. */
+.highlight-none .highlight pre {
+    line-height: 1em;
+    /* font-family: monospace; */
+}
+
+/* Fix drifting to the left in some parameters lists. */
+.field-body li .highlight pre {
+    float: right;
+}
+
+
+div.admonition {
+    padding-bottom: 0;
+}
+
+div input[type="text"] {
+    padding: 5px;
+    margin: 0 0 0.5em 0;
+}
+
+div input[type="submit"] {
+    font-size: 14px;
+    width: 72px;
+    height: 27px;
+    font-weight: 600;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    padding: 0 10px;
+
+    color: #333;
+    background-color: #eee;
+    background-image: linear-gradient(to bottom,#fcfcfc,#eee);
+}
+
+div input[type="submit"]:hover {
+    background-color: #ddd;
+    background-image: linear-gradient(to bottom,#eee,#ddd);
+    border-color: #ccc;
+}
+
+div input[type="submit"]:active, #searchbox input[type="submit"]:active {
+    background-color: #dcdcdc;
+    background-image: none;
+    border-color: #b5b5b5;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
+}
+
+div input[type="submit"]:focus {
+    outline: none;
+}
+
+input[type=text]:focus {
+    outline: 1px solid #999;
+}
+
+#sidebarSupportFalcon a:hover, #sidebarSupportFalcon a:focus {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+dl.field-list > dt {
+    word-break: normal;
+    padding-left: 0;
+    hyphens: none;
+    margin-top: 0.2em;
+}
+
+dl.field-list > dd {
+    margin-top: 0.2em;
+}
+
+dl.field-list ul {
+    list-style: none;
+}
+
+dl.field-list ul li {
+    list-style: none;
+    padding-bottom: 0.5em;
+}
+
+dl.field-list.simple dd ul {
+    padding-left: 0;
+}
+
+dl.field-list.simple dd ul li p:not(:first-child) {
+    margin-top: 0.4em;
+}
+
+dl.attribute > dd > p {
+    margin: 0 0 1em 0;
+}
+
+/* NOTE(kgriffs): Fix spacing issue with embedded Note blocks, and make
+     things generally more readable by spacing the paragraphs. */
+.field-list p {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 870px) {
+    ol, ul {
+        margin-left: 1em;
+    }
+}

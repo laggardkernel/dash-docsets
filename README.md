@@ -32,6 +32,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Elasticsearch-Py.xml
 - Fabric, 2.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Fabric.xml
+- Falcon, 3.0.0a1
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Falcon.xml
 - Flask-Admin, 1.5.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-Admin.xml
 - Flask-Bootstrap, 3.3.7.1

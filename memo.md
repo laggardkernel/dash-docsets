@@ -264,6 +264,14 @@ Table of Contents
 
 - TODO: add docs of pyinvoke and paramiko
 
+### Falcon
+- https://github.com/falconry/falcon
+- https://falcon.readthedocs.io/en/3.0.0a1/
+- `export DASHBUILD=True`
+- Modify `custom.csS` brought by Falcon
+  - comment font-family Oxygen of body, code, etc.
+  - disable bold font weight in headers
+
 ### Flask-Admin
 - https://flask-admin.readthedocs.io/en/v1.5.2/
 - `pip install -r requirements-dev.txt`

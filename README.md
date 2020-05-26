@@ -82,7 +82,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
 - Pytest, 4.6.7
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pytest.xml
-- Requests, 2.20.0
+- Requests, 2.23.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests.xml
 - Requests-HTML, 0.9.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests-HTML.xml

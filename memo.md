@@ -13,7 +13,7 @@ Edit `docs/conf.py`
 html_theme = "alabaster"
 html_theme_options = {
     'nosidebar': True,
-    'show_powered_by': True,
+    'show_powered_by': False,
     'show_related': False,
     'show_relbars': False,
     'github_button': False,

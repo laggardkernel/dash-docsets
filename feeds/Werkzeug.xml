@@ -1,5 +1,8 @@
 <entry>
-    <version>0.14.1</version>
+    <version>0.16.1</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Werkzeug.tgz</url>
+    <other-versions>
+        <version><name>0.14.1</name></version>
+    </other-versions>
 </entry>

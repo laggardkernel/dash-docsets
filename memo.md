@@ -576,6 +576,7 @@ div.pageheader ul {margin-top:15px;}
 ### Werkzeug
 - http://werkzeug.pocoo.org/docs/0.14/
 - The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.
+- Disable custom padding and margin for pre block
 
 ### WTForms
 - https://wtforms.readthedocs.io/en/stable/

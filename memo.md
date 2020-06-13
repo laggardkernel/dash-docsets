@@ -171,11 +171,21 @@ Table of Content
 ### Bottle
 - https://bottlepy.org/docs/0.12/
 - ~~`make docs` in root folder of the source~~
-- Use theme folder named `sphinx` from [bottlepy.org](https://github.com/bottlepy/bottlepy.org) repo
+- Use theme folder named `sphinx` from [bottlepy.org](https://github.com/bottlepy/bottlepy.org) repo, put it under `docs/`
     - `html_theme = "alabaster"`
 - `sphinx-build -b html -c docs/sphinx -d build/docs/doctrees docs build/docs/html`
 - Use custom font styles since `bottle.css` replaces `alabaster.css`
-    - `div.body {padding-left:30px;padding-right:30px;max-width:none !important;}`
+
+Put the following into `docs/conf.py`
+
+```python
+html_theme = "bottle"
+html_theme_options = {...}
+```
+
+```css
+div.body {padding-left:30px;padding-right:30px;max-width:none !important;border:0 !important;}
+```
 
 ### CacheControl
 - https://cachecontrol.readthedocs.io/en/latest/

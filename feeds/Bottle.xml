@@ -1,5 +1,8 @@
 <entry>
-    <version>0.12.13</version>
+    <version>0.12.18</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Bottle.tgz</url>
+    <other-versions>
+        <version><name>0.12.13</name></version>
+    </other-versions>
 </entry>

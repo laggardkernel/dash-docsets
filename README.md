@@ -20,7 +20,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Babel.xml
 - Beautiful Soup, 4.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Beautiful-Soup.xml
-- Bottle, 0.12.13
+- Bottle, 0.12.18
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Bottle.xml
 - CacheControl, 0.12.5
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/CacheControl.xml

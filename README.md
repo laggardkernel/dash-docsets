@@ -104,6 +104,8 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Setuptools.xml
 - Sphinx, 1.8.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sphinx.xml
+- Splash, 3.5.0
+    - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Splash.xml
 - Supervisor, 3.3.4
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Supervisor.xml
 - WeasyPrint, 51

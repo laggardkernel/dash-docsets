@@ -27,6 +27,7 @@ html_theme_options = {
     'code_font_size': '0.85em',
 }
 
+
 html_css_files = ["custom.css"]
 ```
 
@@ -50,6 +51,13 @@ div.admonition {margin:20px 0; padding:10px 10px;}
         margin-left: 1em;
     }
 }
+```
+
+BTW, default sans-serif font on different operating systems:
+
+```css
+// https://fontsarena.com/blog/operating-systems-default-sans-serif-fonts/
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Noto Sans", "DejaVu Sans", Roboto, sans-serif;
 ```
 
 First part of the styles above is borrowed from Dash docset named Flask, which I think is added by Kapeli, the creator of Dash.

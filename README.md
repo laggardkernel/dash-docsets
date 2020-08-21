@@ -26,7 +26,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/CacheControl.xml
 - Click, 7.1.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Click.xml
-- Celery, 4.2.1
+- Celery, 4.4.7
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Celery.xml
 - Elasticsearch-Py, 6.4.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Elasticsearch-Py.xml

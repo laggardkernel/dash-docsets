@@ -598,15 +598,7 @@ div.pageheader ul {margin-top:15px;}
 
 ### WTForms
 - https://wtforms.readthedocs.io/en/stable/
-- Custom CSS is used by the doc. Change the `main.css` directly.
-
-```css
-/* additional */
-#body {
-    margin: auto;
-    max-width: none;
-}
-```
+- Theme werkzeug, change the `werkzeug.css` directly.
 
 ### urllib3
 - https://urllib3.readthedocs.io/en/latest/

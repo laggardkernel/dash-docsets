@@ -1,5 +1,8 @@
 <entry>
-    <version>2.2.1</version>
+    <version>2.3.x</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/WTForms.tgz</url>
+    <other-versions>
+        <version>2.2.x</version>
+    </other-versions>
 </entry>

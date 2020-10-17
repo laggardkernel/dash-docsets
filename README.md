@@ -114,7 +114,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/WeasyPrint.xml
 - Werkzeug, 0.16.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Werkzeug.xml
-- WTForms, 2.2.1
+- WTForms, 2.3.x
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/WTForms.xml
 - urllib3, 1.24.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/urllib3.xml

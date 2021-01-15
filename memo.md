@@ -20,7 +20,7 @@ html_theme_options = {
     'github_banner': False,
 
     # Only works for alabaster?
-    'font_family': "'Gentium Book Basic', Georgia, 'Bitstream Charter', Hiragino Mincho Pro, serif",
+    'font_family': "'Gentium Plus', Georgia, 'Bitstream Charter', Hiragino Mincho Pro, serif",
     'font_size': '1.0625rem',
     'head_font_family': "Garamond, Georgia, 'Bitstream Charter', serif",
     'code_font_family': "'IBM Plex Mono', Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
@@ -65,7 +65,7 @@ First part of the styles above is borrowed from Dash docset named Flask, which I
 Use styles below to modify font family if `html_theme_options` doesn't support font settings.
 
 ```css
-body, div.body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter',serif;font-size:1.0625rem;line-height:1.4;color:#3E4349;}
+body, div.body {font-family: 'Gentium Plus',Georgia,'Bitstream Charter',serif;font-size:1.0625rem;line-height:1.4;color:#3E4349;}
 div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
 pre, tt, code {font-family: 'IBM Plex Mono',Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em!important;}
 h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}
@@ -241,7 +241,7 @@ div.body {padding-left:30px;padding-right:30px;max-width:none !important;border:
 - Customize font family only in `pygments.css`
 
 ```css
-body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 17px !important;line-height:1.4;}
+body {font-family: 'Gentium Plus',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 17px !important;line-height:1.4;}
 ```
 
 ### Elasticsearch-Py
@@ -497,7 +497,7 @@ div.body {max-width:none !important; padding-left:0px;}
 pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
 div.admonition {margin:20px 0; padding:10px 10px;}
 
-body, div.body {font-family: 'Gentium Book Basic',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;color:#3E4349;}
+body, div.body {font-family: 'Gentium Plus',Georgia,'Bitstream Charter','Hiragino Mincho Pro',serif;font-size: 1.0625rem;line-height:1.4;color:#3E4349;}
 div.admonition p.admonition-title {font-family: 'Garamond','Georgia','Bitstream Charter',serif;}
 pre, tt, code {font-family: Monaco,Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;font-size: 0.8em!important;}
 h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif !important;font-weight:normal;}

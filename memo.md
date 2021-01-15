@@ -592,7 +592,7 @@ div.pageheader ul {margin-top:15px;}
 - https://github.com/Kozea/WeasyPrint
 
 ### Werkzeug
-- http://werkzeug.pocoo.org/docs/0.14/
+- https://werkzeug.palletsprojects.com/en/1.0.x/
 - The theme of it is based on alabaster, but there's no `html_theme_options` support. Append custom styles into `html/_static/werkzeug.css`.
 - Disable custom padding and margin for pre block
 

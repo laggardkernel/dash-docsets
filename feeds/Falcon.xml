@@ -2,4 +2,7 @@
     <version>3.0.0a1</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Falcon.tgz</url>
+    <other-versions>
+        <version><name>2.0.0</name></version>
+    </other-versions>
 </entry>

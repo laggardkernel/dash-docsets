@@ -11,7 +11,7 @@ Edit `docs/conf.py`
 ```python
 # options for alabaster
 html_theme = "alabaster"
-html_theme_options = {
+html_theme_options.update({
     'nosidebar': True,
     'show_powered_by': False,
     'show_related': False,
@@ -25,7 +25,7 @@ html_theme_options = {
     'head_font_family': "Garamond, Georgia, 'Bitstream Charter', serif",
     'code_font_family': "'IBM Plex Mono', Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
     'code_font_size': '0.85em',
-}
+})
 
 
 html_css_files = ["custom.css"]
@@ -284,9 +284,9 @@ Table of Contents
 
 ### Falcon
 - https://github.com/falconry/falcon
-- https://falcon.readthedocs.io/en/3.0.0a1/
+- https://falcon.readthedocs.io/en/stable/
 - `export DASHBUILD=True`
-- Modify `custom.csS` brought by Falcon
+- Modify `custom.css` brought by Falcon
   - comment font-family Oxygen of body, code, etc.
   - disable bold font weight in headers
 

@@ -1,10 +1,9 @@
 <entry>
-    <version>19.12.2</version>
+    <version>20.12.1</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Sanic.tgz</url>
     <other-versions>
-        <version>
-            <name>19.9.0</name>
-        </version>
+        <version><name>19.9.0</name></version>
+        <version><name>19.12.2</name></version>
     </other-versions>
 </entry>

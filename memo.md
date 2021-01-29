@@ -42,10 +42,8 @@ body {padding-left:30px;padding-right:30px;max-width:none !important;}
 div.body {padding-left:0;padding-right:0;max-width:none !important;}
 pre {padding: 7px 10px !important;margin: 15px 0 !important;overflow:auto;}
 div.admonition {margin:20px 0; padding:10px 10px;}
-```
 
-```css
-// indent of the list
+/* indent of the list */
 @media screen and (max-width: 870px) {
     ol, ul {
         margin-left: 1em;
@@ -541,9 +539,17 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 - override theme sphinx_rtd_theme with alabaster
 
 ### Sanic
-- https://sanic.readthedocs.io/en/latest/
-- https://github.com/huge-success/sanic
+- https://sanic.readthedocs.io/en/stable/
+- https://github.com/sanic-org/sanic
 - `pip install -e . ".[docs]"`
+
+```css
+.line-block {
+    font-family:'IBM Plex Mono', Consolas, Menlo, 'Deja Vu Sans Mono',
+'Bitstream Vera Sans Mono', monospace;
+    font-size: 0.8em;
+}
+```
 
 ### Sanic JWT
 - Use the new default theme alabaster but not the classic

@@ -11,6 +11,7 @@ Edit `docs/conf.py`
 ```python
 # options for alabaster
 html_theme = "alabaster"
+html_theme_options = {}
 html_theme_options.update({
     'nosidebar': True,
     'show_powered_by': False,
@@ -353,6 +354,10 @@ pip install wtforms
 - `pip install Flask-Sphinx-Themes`
 - `__import__("flask_sphinx_themes")` in `docs/conf.py`
 - Modify `_static/flasky.css`
+
+### Gunicorn
+- https://docs.gunicorn.org/en/stable/
+- Replace sphinx_rtd_theme with alabaster
 
 ### IPython
 - https://ipython.readthedocs.io/en/7.1.1/

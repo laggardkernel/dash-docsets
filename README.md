@@ -84,7 +84,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/PyQuery.xml
 - pysheeet, 20200512
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/pysheeet.xml
-- Pytest, 4.6.7
+- Pytest, 6.2.2
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pytest.xml
 - Requests, 2.23.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Requests.xml

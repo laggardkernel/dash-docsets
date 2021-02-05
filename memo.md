@@ -517,9 +517,11 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 - Display toc `div#table-of-contents {display: block;}`. Cause sidebar is removed, we need toc for navigation.
 
 ### Pytest
-- https://docs.pytest.org/en/4.6.3/
+- https://docs.pytest.org/en/stable/
 - Based on flask theme, no useful options for docset generation
 - Maybe it's a good idea to use theme `alabaster` since those two are very similar
+    - Remove margin of `pre`, already set on `.highlight`
+    - `div.sidebar {display:none;}`
 
 ### Requests
 - http://docs.python-requests.org/en/master/

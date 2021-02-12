@@ -1,5 +1,8 @@
 <entry>
-    <version>1.8.1</version>
+    <version>3.4.3</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Sphinx.tgz</url>
+    <other-versions>
+        <version><name>1.8.1</name></version>
+    </other-versions>
 </entry>

@@ -106,7 +106,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Selenium-Python.xml
 - Setuptools, 40.5.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Setuptools.xml
-- Sphinx, 1.8.1
+- Sphinx, 3.4.3
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sphinx.xml
 - Splash, 3.5.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Splash.xml

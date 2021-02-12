@@ -581,6 +581,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 - Dashing selector: `"a.toc-backref": "Guide"`
 
 ### Sphinx
+- https://www.sphinx-doc.org/en/3.x/
 - The theme is an adjusted version of the sphinxdoc theme. Only two options are available:
     - `nosidebar`
     - `sidebarwidth`
@@ -588,10 +589,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none;}
 - Resize body width and reduce the size of `div.pageheader`:
 
 ```css
-body {min-width: 0;max-width: none;border-left:none;border-right:0;}
+/* body {min-width:0;max-width:none;border-left:none;border-right:0;padding-left:0;padding-right:0;} */
+body {min-width:0;max-width:none;padding-left:0;padding-right:0;}
 div.pageheader {padding: 0;}
 div.pageheader img {height:50px;}
 div.pageheader ul {margin-top:15px;}
+div.document {padding-left:15px;padding-right:15px;}
 ```
 
 ### Supervisor

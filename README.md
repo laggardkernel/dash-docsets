@@ -56,7 +56,7 @@ Dash docsets with custom styles
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Flask-WTF.xml
 - google-cloud-logging, 1.21.3
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/google-cloud-logging.xml
-- Gunicorn, 20.0.4
+- Gunicorn, 20.1.0
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Gunicorn.xml
 - IPython, 7.1.1
     - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/IPython.xml

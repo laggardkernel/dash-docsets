@@ -1,5 +1,8 @@
 <entry>
-    <version>20.0.4</version>
+    <version>20.1.0</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Gunicorn.tgz</url>
+    <other-versions>
+        <version><name>20.0.4</name></version>
+    </other-versions>
 </entry>

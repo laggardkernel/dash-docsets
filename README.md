@@ -4,9 +4,12 @@ Dash docsets with custom styles
 
 ## Why
 
-- There's still no way to load custom CSS in Dash. I need to modify the styles by myself.
-- Some of the user contributed docsets are far from the criterion of [Docset Contribution Checklist](https://github.com/Kapeli/Dash-User-Contributions/wiki/Docset-Contribution-Checklist), especially those with sidebar, github banner, decoration images, etc.
-- It's not a good idea to submit to [Dash-User-Contributions repo](https://github.com/Kapeli/Dash-User-Contributions) with flavored docsets but not the vanilla ones.
+- There's still no way to load custom CSS in Dash. Need to modify the styles by myself.
+- Some of the user contributed docsets are far from the criterion of
+  [Docset Contribution Checklist][docset-contribution-checklist], especially
+  those with sidebar, github banner, decoration images, etc.
+- It's not a good idea to submit to [dash-user-contributions][dash-user-contributions]
+  with flavored docsets but not the vanilla ones.
 - I need a place to share these docsets.
 
 ## Docset Feeds
@@ -123,3 +126,6 @@ Dash docsets with custom styles
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/WTForms.xml
 - urllib3, 1.24.1
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/urllib3.xml
+
+[docset-contribution-checklist]: https://github.com/Kapeli/Dash-User-Contributions/wiki/Docset-Contribution-Checklist
+[dash-user-contributions]: https://github.com/Kapeli/Dash-User-Contributions

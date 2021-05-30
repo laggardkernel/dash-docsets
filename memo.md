@@ -685,10 +685,10 @@ div.document {padding-left:15px;padding-right:15px;}
 
 ### Werkzeug
 
-- https://werkzeug.palletsprojects.com/en/1.0.x/
+- https://werkzeug.palletsprojects.com/en/2.0.x/
 - The theme of it is based on alabaster, but there's no `html_theme_options`
   support. Append custom styles into `html/_static/werkzeug.css`.
-- Disable custom padding and margin for pre block
+- Disable custom padding and margin for `pre` block
 
 ### WTForms
 

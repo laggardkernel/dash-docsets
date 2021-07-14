@@ -634,6 +634,19 @@ h1, h2, h3, h4, h5, h6 {font-family: Garamond,Georgia,'Bitstream Charter',serif 
 - https://github.com/ahopkins/sanic-jwt
 - Remove badges on `index.html`
 
+### Scrapy
+
+- https://docs.scrapy.org/en/latest/
+- Custom code font for `.sig`
+
+```css
+.sig {
+  font-family: 'IBM Plex Mono',Consolas,Menlo,'Deja Vu Sans Mono','Bitstream Vera Sans Mono',monospace;
+  font-size: 0.8em!important;
+  color: #222;
+}
+```
+
 ### Selenium Python
 
 - https://selenium-python.readthedocs.io/

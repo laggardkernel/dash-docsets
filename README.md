@@ -106,7 +106,7 @@ Dash docsets with custom styles
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sanic.xml
 - Sanic JWT, 1.3.2
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Sanic-JWT.xml
-- Scrapy, 2.2
+- Scrapy, 2.5.0
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Scrapy.xml
 - Selenium Python, 20181027
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Selenium-Python.xml

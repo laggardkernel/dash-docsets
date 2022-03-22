@@ -528,6 +528,10 @@ div.document {padding:0 20px;color:#333;}
 - ~~Incorrect build: `install.html`~~ (Fix them manually)
   - Caused by "Title underline too short."
 
+### Plim
+
+- Remove badges in `index.html`, all doesn't resolve anymore
+
 ### Pygal
 
 - http://www.pygal.org/en/2.4.0/

@@ -80,6 +80,8 @@ Dash docsets with custom styles
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Peewee-Async.xml
 - Pipenv, 2018.11.26
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Pipenv.xml
+- Plim, 0.9.12
+  - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Plim.xml
 - Psycopg, 2.8.5
   - https://github.com/laggardkernel/dash-docsets/raw/master/feeds/Psycopg.xml
 - Pygal, 2.4.0

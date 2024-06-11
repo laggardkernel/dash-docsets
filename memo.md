@@ -89,6 +89,7 @@ Build the docset with [doc2dash][doc2dash] for sphinx doc, and
 # sphinx doc with index
 # enable javascript only if it's needed
 doc2dash -v -n aiohttp -I index.html -u https://aiohttp.readthedocs.io/en/stable/ <path to HTML doc folder of aiohttp>
+# -i, --icon
 
 # OR
 # html files without index

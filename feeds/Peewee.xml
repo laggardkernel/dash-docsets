@@ -3,8 +3,7 @@
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Peewee.tgz</url>
     <other-versions>
-        <version>
-            <name>2.2.2</name>
-        </version>
+        <version><name>2.10.2</name></version>
+        <version><name>2.2.2</name></version>
     </other-versions>
 </entry>

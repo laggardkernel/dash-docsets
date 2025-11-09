@@ -26,7 +26,7 @@ html_theme_options.update({
     # Only works for alabaster?
     'font_family': "'Gentium Plus', Georgia, 'Bitstream Charter', Hiragino Mincho Pro, serif",
     'font_size': '1.0625rem',
-    'head_font_family': "Garamond, Georgia, 'Bitstream Charter', serif",
+    'head_font_family': "Garamond, 'EB Garamond', Georgia, 'Bitstream Charter', serif",
     'code_font_family': "'IBM Plex Mono', Consolas, Menlo, 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace",
     'code_font_size': '0.85em',
 })

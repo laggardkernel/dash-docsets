@@ -1,5 +1,8 @@
 <entry>
-    <version>0.9.12</version>
+    <version>1.0.0</version>
     <ios_version>1</ios_version>
     <url>https://github.com/laggardkernel/dash-docsets/raw/build/Plim.tgz</url>
+    <other-versions>
+        <version><name>0.9.12</name></version>
+    </other-versions>
 </entry>
